@@ -10,23 +10,23 @@ const SignIn = () => {
         password:''
     }
 
-    const [user, setUser] = useState({userName: '', email: ""})
-    const [error, setError] = useState('')
+    const [user, setUser] = useState({userName: '', email: "", password:""})
+    const [error, ] = useState('')
 
     const Login = details => {
-        if (details.email ==adminUser.email && details.password ==adminUser.password)
+        if (details.email ===adminUser.email && details.password === adminUser.password)
         console.log("logged in")
         setUser({email:details.email, password:details.password});
 
     }
-    const Logout =() => {
-        console.log("logout")
-    }
+    // const Logout =() => {
+    //     console.log("logout")
+    // }
     return (
         <div className="sign-in">
             <div className="sign-in__innercontainer">
-                <div className="left-blue-partition"></div>
-                {(user.email !="") ?( <Dashboard />):<SigninForm Login={Login} error={error}/>}
+                <div className="left-blue-partition"/>
+                {(user.email !=="") ?( <Dashboard />):<SigninForm Login={Login} error={error}/>}
             </div>
 
         </div>
