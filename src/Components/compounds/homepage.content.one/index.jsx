@@ -26,7 +26,6 @@ const HomePageContentOne = () => {
                       remaining essentially unchanged. </span>
               </div>
 
-
             </div>
                 <HomePageContentTwo/>
                 <HomePageContentThree/>
