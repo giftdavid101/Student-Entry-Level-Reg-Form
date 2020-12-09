@@ -18,7 +18,7 @@
 .homepage-content-one__pic-holder {
   width: 350px;
   height: 50vh;
-  background-image: url("/images/graduation.jpg");
+  background-image: url("graduation.jpg");
   background-size: cover;
   background-position: center;
 }
