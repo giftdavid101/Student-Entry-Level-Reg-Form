@@ -4,8 +4,8 @@
     background-image: linear-gradient(rgba(95, 93, 88, 0.137), rgba(110, 95, 95, 0.068)),url('/images/school.jpg');
     background-size: cover;
     background-position: center;  
-    display: flex; 
-    
+    display: flex;
+    position: relative;
 
     .welcome-content{
         width: 95%;

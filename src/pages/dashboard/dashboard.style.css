@@ -1,0 +1,9 @@
+.dashboard {
+  width: 100%;
+  height: 40vh;
+  background: gold;
+  position: absolute;
+  z-index: 9;
+}
+
+/*# sourceMappingURL=dashboard.style.css.map */

@@ -1,0 +1,26 @@
+.sign-in {
+  width: 100%;
+  height: 100vh;
+  background: darkgoldenrod;
+}
+.sign-in__innercontainer {
+  display: flex;
+}
+.sign-in__innercontainer .dashboard {
+  width: 100%;
+  background: #e70707;
+  height: 100vh;
+  text-align: center;
+}
+.sign-in .left-blue-partition {
+  width: 50%;
+  height: 100vh;
+  background: #40404c;
+}
+.sign-in .right-wheat-partition {
+  width: 50%;
+  height: 100vh;
+  background: wheat;
+}
+
+/*# sourceMappingURL=signinpage.style.css.map */

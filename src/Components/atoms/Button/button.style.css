@@ -1,0 +1,30 @@
+.btn {
+  padding: 18px 20px;
+  border-radius: 4px;
+}
+
+.btn--primary {
+  background: brown;
+  color: white;
+  border: 1px solid black;
+}
+
+.btn--outline {
+  background: green;
+  color: white;
+  padding: 8px 20px;
+  border: 1px solid black;
+  transition: all 0.3s ease-out;
+}
+
+.btn-medium {
+  padding: 8px 20px;
+  font-size: 15px;
+}
+
+.btn-large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=button.style.css.map */

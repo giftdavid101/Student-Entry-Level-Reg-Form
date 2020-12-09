@@ -1,0 +1,35 @@
+.homepage-content-one{
+  width: 80%;
+  background: #8dbeed;
+
+  position: absolute;
+  top: 700px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  &__content-holder{
+    width: 100%;
+    background: #40404c;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+  } &__pic-holder{
+      width: 350px;
+      height: 50vh;
+      background-image: url('/images/graduation.jpg');
+      background-size: cover;
+      background-position: center;
+
+    }
+  &__text{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+  }
+
+
+}

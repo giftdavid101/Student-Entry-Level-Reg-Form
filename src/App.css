@@ -1,5 +1,5 @@
 *{
-  /* outline: 1px solid grey; */
+   /*outline: 1px solid grey;*/
   margin: 0;
   padding: 0;
   box-sizing:border-box;
@@ -11,4 +11,10 @@
 }
 a{
   text-decoration: none;
+}
+
+.container {
+  max-width: 1920px;
+  margin: auto;
+  width: 100%;
 }

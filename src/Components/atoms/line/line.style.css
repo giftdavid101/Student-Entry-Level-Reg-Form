@@ -1,0 +1,17 @@
+.line {
+  width: 50%;
+  display: flex;
+}
+.line__color-one {
+  width: 200px;
+  height: 8px;
+  background: gold;
+}
+.line__color-two {
+  width: 15px;
+  height: 8px;
+  margin-left: 8px;
+  background: #8dbeed;
+}
+
+/*# sourceMappingURL=line.style.css.map */
