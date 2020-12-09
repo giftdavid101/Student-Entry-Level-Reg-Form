@@ -1,5 +1,14 @@
 .homepage-content-two{
   width: 100%;
   background: #40404c;
+  text-align:center;
 
+  &__latest-exams{
+    width:100%;
+    justify-content:center;
+    margin-top:20px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap:50px;
+  }
 }

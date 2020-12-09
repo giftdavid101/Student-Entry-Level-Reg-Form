@@ -47,14 +47,14 @@ const HomePageContentTwo = () => {
         },
     ]
     return (
-        <div className="homepage-content-two" style={{textAlign:'center',width:'100%',justifyContent:"center" }}>
+        <div className="homepage-content-two" style={{ }}>
             <h1>Latest Exam</h1>
             <p>Lorem ipsum is simply dummy</p>
             <div style={{width:"100%", margin:"auto"}}><Line /></div>
 
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy</p>
-            <div style={{width:'100%',justifyContent:"center",marginTop:"20px", display:"grid",gridTemplateColumns:"1fr 1fr 1fr 1fr", gridGap:"50px" }}>
+            <div className="homepage-content-two__latest-exams">
                 {content.map(el=> (
                   <span style={{display:"flex", border:"1px solid grey"}}>
                       <div>{el.logo}</div>
